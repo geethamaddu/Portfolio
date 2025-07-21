@@ -1,0 +1,105 @@
+{
+    "id":0,
+    "profile":{
+        "bio":"I'm always open to learning, collaborating, and joining enthusiastic teams for hackathons or real-world projects. Let's connect and build something meaningful together!"
+    },
+
+    "about":{
+        "heading":"Software Developer | Full-Stack Explorer | Problem Solver | Lifelong Learner",
+
+        "aboutme":"I am a Computer Science student currently pursuing my master's degree at Saint Leo University.\n My journey in tech began with a simple love for problem-solving and logical thinking. This curiosity led me to dive deeper into data structures and algorithms, where I found a passion for writing efficient, optimized code. \n As I built my foundation in DSA, I became increasingly interested in how software systems work end-to-end. This led me to explore full-stack development, starting with frontend technologies like HTML5, CSS3, JavaScript, Bootstrap, and React. I then expanded into backend development using Java, Spring Boot, and Node.js, often applying microservices architecture to design scalable systems. Along the way, I gained hands-on experience with MySQL, PostgreSQL, and MongoDB. \n I have actively participated in college hackathons, which have strengthened my ability to work under pressure, collaborate with diverse teams, and rapidly prototype innovative solutions. I am always open to joining new teams for hackathons to explore fresh ideas and expand my skills. \n Let's connect!"
+    },
+
+    "skills":[
+        {"name":"Java", "category":"Programming"},
+        {"name":"Python", "category":"Programming"},
+        {"name":"Python", "category":"C"},
+
+        {"name":"HTML","category":"Frontend"},
+        {"name":"CSS","category":"Frontend"},
+        {"name":"React","category":"Frontend"},
+        {"name":"JavaScript","category":"Frontend"},
+        {"name":"Tailwind CSS","category":"Frontend"},
+        {"name":"Next.js","category":"Frontend"},
+
+        {"name":"Node.js","category":"Backend"},
+        {"name":"SpringBoot","category":"Backendend"},
+        {"name":"MySQL","category":"Backend"},
+        {"name":"MongoDB","category":"Backend"},
+        {"name":"Oracle DB","category":"Backend"},
+        {"name":"PostgreSQL","category":"Backend"},
+        {"name":"Microservices","category":"Backend"},
+        {"name":"AWS","category":"Cloud Technology"},
+        {"name":"Firebase","category":"Cloud Technology"},
+
+
+        {"name":"Figma","category":"Tools"},
+        {"name":"VS Code","category":"Tools"},
+        {"name":"Git / GitHub","category":"Tools"},
+        {"name":"Eclipe","category":"Tools"},
+        {"name":"Maven","category":"Tools"},
+        {"name":"Docker","category":"Tools"},
+        {"name":"Postman","category":"Tools"}
+    ],
+     
+    "categories":["All","Frontend","Backend","Programming", "Cloud Technology", "Tools" ],
+
+    "projects":[
+        {
+            "id":1,
+            "title":"Netflix Clone",
+            "description":"NETFLIX FRONT END dESC",
+            "image":"/projects/netflixsite.png",
+            "tags":["React","Stripe","Css"],
+            "demoLink":"#",
+            "GitHub":"#"
+        },
+         {
+            "id":2,
+            "title":"Netflix Clone",
+            "description":"NETFLIX FRONT END dESC",
+            "image":"/projects/netflixsite.png",
+            "tags":["React","Css"],
+            "demoLink":"#",
+            "GitHub":"#"
+        },
+         {
+            "id":3,
+            "title":"Netflix Clone",
+            "description":"NETFLIX FRONT END dESC",
+            "image":"/projects/netflixsite.png",
+            "tags":["React","Css"],
+            "demoLink":"#",
+            "GitHub":"#"
+        },
+         {
+            "id":4,
+            "title":"Netflix Clone",
+            "description":"NETFLIX FRONT END dESC",
+            "image":"/projects/netflixsite.png",
+            "tags":["React","Css"],
+            "demoLink":"#",
+            "GitHub":"#"
+        }
+        ,{
+            "id":5,
+            "title":"Netflix Clone",
+            "description":"NETFLIX FRONT END dESC",
+            "image":"/projects/netflixsite.png",
+            "tags":["React","Css"],
+            "demoLink":"#",
+            "GitHub":"#"
+        }
+    ],
+    "contact":{
+        "info":{
+            "email":"gndlahari@gmail.com",
+            "phone":"+1(470) 601 4009",
+            "location":"Sanford, Florida, USA"
+        },
+        "socialmedia":{
+            "linkedin":"https://www.linkedin.com/in/geethamaddu/",
+            "insta":"https://www.instagram.com/geethamaddu94/"
+        }
+    }
+}
