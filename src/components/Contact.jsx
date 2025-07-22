@@ -11,11 +11,29 @@ function Contact() {
 
     const contactInfo=Data.contact.info
     const socialmedia=Data.contact.socialmedia
-    const handleSubmit=(e)=>{
+    const  handleSubmit=async(e)=>{
         e.preventDefault()
 
         setIsSubmitting(true)
 
+        const formData = new FormData(e.target);
+
+        formData.append("access_key", "0e92a90c-a59d-4710-a8eb-89da0a1a4dbf");
+
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+        setIsSubmitting(false);
+         e.target.reset();
+         } else {
+            console.log("Error", data);
+        }
+ 
         setTimeout(()=>{
             toast({
                 title:"Message sent!",
@@ -110,20 +128,21 @@ function Contact() {
                 <h3 className='text-2xl font-semibold mb-6 text-'>Send a Message</h3>
             
                 <form action="" className='space-y-6' onSubmit={handleSubmit}>
+                    <input type="hidden" name="access_key" value="0e92a90c-a59d-4710-a8eb-89da0a1a4dbf"></input>
                     <div>
                         <label htmlFor="name" className='block text-sm font-medium mb-2'>Your Name:</label>
-                        <input type='text' id='name' required className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden
+                        <input type='text' id='name' name='name' required className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden
                         focus:ring-2 focus:ring-primary' placeholder='John'/>
                     </div>
                     <div>
                         <label htmlFor="email" className='block text-sm font-medium mb-2'>Your Email:</label>
-                        <input type='email' id='email' required className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden
+                        <input type='email' id='email' name='email' required className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden
                         focus:ring-2 focus:ring-primary' placeholder='john@gmail.com'/>
                     </div>
 
                     <div>
                         <label htmlFor="message" className='block text-sm font-medium mb-2'>Your Message:</label>
-                        <textarea  id='message' required className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden
+                        <textarea  id='message' name='message' required className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden
                         focus:ring-2 focus:ring-primary resize-none' placeholder="Hello, I'd like to talk about... "/>
                     </div>
 
