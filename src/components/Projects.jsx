@@ -50,14 +50,6 @@ function Projects() {
                   <div className='flex justify-between items-center'>
                     <div className='flex space-x-2'>
                       <div className='flex flex-col items-center'>
-                        <a href={project.demoLink} target='_blank' className='text-foreground/80 hover:text-primary transition-colors duration-300'><ExternalLink size={20}/></a>
-                        
-                        <span className="opacity-0 group-hover:opacity-100 transition-opacity text-sm text-primary/35">
-                          Demo
-                        </span>
-                      </div>
-
-                      <div className='flex flex-col items-center'>
                         <a href={project.GitHub} target='_blank'  className='text-foreground/80 hover:text-primary transition-colors duration-300'><Github size={20} /></a>
                         <span className="opacity-0 group-hover:opacity-100 transition-opacity text-sm text-primary/35">
                           Github

@@ -11,9 +11,25 @@
     },
 
     "skills":[
+
+        {"name":"Python","category":"AI"},
+        {"name":"FastAPI","category":"AI"},
+        {"name":"LangChain","category":"AI"},
+        {"name":"Retrieval Augmented Generation (RAG)","category":"AI"},
+        {"name":"Vector Databases","category":"AI"},
+        {"name":"ChromaDB","category":"AI"},
+        {"name":"HuggingFace","category":"AI"},
+        {"name":"LLM Integration","category":"AI"},
+        {"name":"Prompt Engineering","category":"AI"},
+        {"name":"Agentic AI","category":"AI"},
+        {"name":"Google ADK","category":"AI"},
+        {"name":"Model Context Protocol (MCP)","category":"AI"},
+        {"name":"Model APIs (OpenAI, Groq, Gemini)","category":"AI"},
+        {"name":"Embeddings","category":"AI"},
+
         {"name":"Java", "category":"Programming"},
         {"name":"Python", "category":"Programming"},
-        {"name":"Python", "category":"C"},
+        
 
         {"name":"HTML","category":"Frontend"},
         {"name":"CSS","category":"Frontend"},
@@ -42,7 +58,7 @@
         {"name":"Postman","category":"Tools"}
     ],
      
-    "categories":["All","Frontend","Backend","Programming", "Cloud Technology", "Tools" ],
+    "categories":["All","AI", "Frontend","Backend","Programming", "Cloud Technology", "Tools" ],
 
     "projects":[
         {
@@ -67,29 +83,12 @@
             "id":3,
             "title":"Multi-PDF RAG Question-Answering Bot",
             "description":"AI-powered Retrieval Augmented Generation system that allows users to upload multiple PDFs and ask questions across documents with source attribution.",
-            "image":"/projects/netflixsite.png",
+            "image":"/projects/ragbot.png",
             "tags":["Python","Streamlit","LangChain","RAG", "LLM", "ChromaDB", "HuggingFace Embeddings","Groq API","LLaMA 3","PyMuPDF"],
             "demoLink":"#",
-            "GitHub":"#"
-        },
-         {
-            "id":4,
-            "title":"Project 4",
-            "description":"Working on it",
-            "image":"/projects/netflixsite.png",
-            "tags":["React","Css"],
-            "demoLink":"#",
-            "GitHub":"#"
+            "GitHub":"https://github.com/geethamaddu/RAGBOT"
         }
-        ,{
-            "id":5,
-            "title":"Project 5",
-            "description":"Working on it",
-            "image":"/projects/netflixsite.png",
-            "tags":["React","Css"],
-            "demoLink":"#",
-            "GitHub":"#"
-        }
+        
     ],
     "contact":{
         "info":{
