@@ -1,5 +1,5 @@
 import data from '../data.json'
-import photo from '../assets/photo.jpg'
+import photo from '../assets/photo.png'
 import { ArrowDown } from 'lucide-react'
 
 export const Profile = () => {
