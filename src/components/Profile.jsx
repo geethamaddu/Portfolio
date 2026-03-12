@@ -1,47 +1,60 @@
 import data from '../data.json'
-import {ArrowDown} from 'lucide-react'
-export const Profile=()=>{
-    const paragraphs = data.profile.bio.split('\n');
+import photo from '../assets/photo.jpg'
+import { ArrowDown } from 'lucide-react'
 
-    return <section id="profile" className="relative min-h-screen flex  col items-center justify-center px-4 ">
+export const Profile = () => {
+  const paragraphs = data.profile.bio.split('\n')
 
-            <div className="container max-w-4xl mx-auto text-center z-10">
-                <div className="space-y-6">
-                    <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-                        <span className="opacity-0 animate-fade-in ">Hi, I'm</span>
-                        <span className="text-primary opacity-0 animate-fade-in-delay-1"> Geetha Naga Durga Lahari </span>
-                        <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">Maddu</span>
-                    </h1>
+  return (
+    <section id="profile" className="relative flex min-h-screen items-center justify-center px-4 py-24">
+      <div className="container z-10 mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
+        <div className="space-y-6 text-center lg:text-left">
+          <h1 className="text-4xl font-bold tracking-tight md:text-6xl">
+            <span className="opacity-0 animate-fade-in">Hi, I'm</span>
+            <span className="text-primary opacity-0 animate-fade-in-delay-1"> Geetha Naga Durga Lahari </span>
+            <span className="ml-2 opacity-0 animate-fade-in-delay-2">Maddu</span>
+          </h1>
 
-                    <div className="text-md
-                     text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3" >
-                        {paragraphs.map((para, index) => (
-        <p key={index}>{para}</p>
-      ))}
-                    </div>
-                    <div className=' pt-4 opacity 0animate-fade-in-delay-4'>
-                        <a href="#projects" className="cosmic-button">
-                            View My Work
-                        </a>
-                    </div>
-                    <div className='flex flex-col sm:flex-row gap-4 pt-4 justify-center'>
-                        <a href="#contact" className='cosmic-button'>Get In Touch</a>
+          <div className="mx-auto max-w-2xl text-md text-muted-foreground opacity-0 animate-fade-in-delay-3 lg:mx-0">
+            {paragraphs.map((para, index) => (
+              <p key={index}>{para}</p>
+            ))}
+          </div>
 
-                        <a href=".../public/resume.docx" download className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'>Download Resume
-                        </a>
-                    </div>
+          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+            <a href="#projects" className="cosmic-button">
+              View My Work
+            </a>
+          </div>
 
+          <div className="flex flex-col justify-center gap-4 pt-4 sm:flex-row lg:justify-start">
+            <a href="#contact" className="cosmic-button">
+              Get In Touch
+            </a>
 
+            <a
+              href=".../public/resume.docx"
+              download
+              className="rounded-full border border-primary px-6 py-2 text-primary transition-colors duration-300 hover:bg-primary/10"
+            >
+              Download Resume
+            </a>
+          </div>
+        </div>
 
-                </div>
-            <div className='absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce'>
-
-                <span className='text-sm text-muted-foreground mb-2'>Scroll</span>
-                <ArrowDown className='h-6 w-6 text-primary'/>
-
+        <div className="flex justify-center lg:justify-end">
+          <div className="profile-photo-shell opacity-0 animate-fade-in-delay-2">
+            <div className="profile-photo-card">
+              <img src={photo} alt="Geetha Naga Durga Lahari Maddu" className="profile-photo-image" />
             </div>
+          </div>
+        </div>
+      </div>
 
-            </div>
-
-        </section>
+      <div className="absolute bottom-8 left-1/2 flex -translate-x-1/2 flex-col items-center animate-bounce">
+        <span className="mb-2 text-sm text-muted-foreground">Scroll</span>
+        <ArrowDown className="h-6 w-6 text-primary" />
+      </div>
+    </section>
+  )
 }
