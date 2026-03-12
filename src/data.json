@@ -5,9 +5,9 @@
     },
 
     "about":{
-        "heading":"Software Developer | Full-Stack Explorer | Problem Solver | Lifelong Learner",
+        "heading":"Software Engineer With AI skills | AI Explorer | Problem Solver | Lifelong Learner",
 
-        "aboutme":"I am a Computer Science student currently pursuing my master's degree at Saint Leo University.\n My journey in tech began with a simple love for problem-solving and logical thinking. This curiosity led me to dive deeper into data structures and algorithms, where I found a passion for writing efficient, optimized code. \n As I built my foundation in DSA, I became increasingly interested in how software systems work end-to-end. This led me to explore full-stack development, starting with frontend technologies like HTML5, CSS3, JavaScript, Bootstrap, and React. I then expanded into backend development using Java, Spring Boot, and Node.js, often applying microservices architecture to design scalable systems. Along the way, I gained hands-on experience with MySQL, PostgreSQL, and MongoDB. \n I have actively participated in college hackathons, which have strengthened my ability to work under pressure, collaborate with diverse teams, and rapidly prototype innovative solutions. I am always open to joining new teams for hackathons to explore fresh ideas and expand my skills. \n Let's connect!"
+        "aboutme":"I’m a Software Engineer with 2 years of industry experience, passionate about building scalable applications that combine full-stack development with AI-driven solutions. I enjoy turning ideas into reliable systems that solve real-world problems.\n Previously, I worked on developing and maintaining a full-stack e-commerce platform using Spring Boot, React.js, and MySQL, where I built secure REST APIs, improved transaction workflows, implemented JWT-based authentication, and enhanced responsive user interfaces. This experience strengthened my skills in backend architecture, API development, application security, and scalable system design. \n I value clean, maintainable code and clear system design, and I’m particularly interested in building intelligent, scalable applications that integrate AI with modern web technologies."
     },
 
     "skills":[
@@ -47,28 +47,28 @@
     "projects":[
         {
             "id":1,
-            "title":"Netflix Clone",
-            "description":"NETFLIX FRONT END dESC",
-            "image":"/projects/netflixsite.png",
-            "tags":["React","Stripe","Css"],
+            "title":"Full-Stack SaaS Receipt Processing Platform",
+            "description":"Automates receipt processing through AI OCR and event-driven workflows, reducing manual effort while delivering secure authentication and seamless subscription management.",
+            "image":"/projects/Receipt_Scanning.png",
+            "tags":["Next.js 15", "TypeScript", "Clerk", "Convex", "Inngest", "AgentKit","Stripe", "Schematic HQ", "Tailwind", "Shadcn UI","Vercel"],
             "demoLink":"#",
-            "GitHub":"#"
+            "GitHub":"https://github.com/geethamaddu/SaaS-AI-Receipt-tracker"
         },
          {
             "id":2,
-            "title":"Project 2",
-            "description":"Working on it",
-            "image":"/projects/netflixsite.png",
-            "tags":["React","Css"],
+            "title":"AI Stock Prediction System (Multi-Agent Architecture)",
+            "description":"Google ADK Multi-agent AI system for parallel stock analysis, real time orchestration, and explainable financial predictions.",
+            "image":"/projects/AIstockprediction.png",
+            "tags":["Python","FastAPI","asyncio", "A2A Protocol","Gemini 2.0 Flash","Next.js","TypeScript","Pydantic","Polygon","FRED","SEC","NewsAPI"],
             "demoLink":"#",
             "GitHub":"#"
         },
          {
             "id":3,
-            "title":"Project 3",
-            "description":"Working on it",
+            "title":"Multi-PDF RAG Question-Answering Bot",
+            "description":"AI-powered Retrieval Augmented Generation system that allows users to upload multiple PDFs and ask questions across documents with source attribution.",
             "image":"/projects/netflixsite.png",
-            "tags":["React","Css"],
+            "tags":["Python","Streamlit","LangChain","RAG", "LLM", "ChromaDB", "HuggingFace Embeddings","Groq API","LLaMA 3","PyMuPDF"],
             "demoLink":"#",
             "GitHub":"#"
         },
