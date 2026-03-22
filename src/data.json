@@ -77,7 +77,7 @@
             "image":"/projects/AIstockprediction.png",
             "tags":["Python","FastAPI","asyncio", "A2A Protocol","Gemini 2.0 Flash","Next.js","TypeScript","Pydantic","Polygon","FRED","SEC","NewsAPI"],
             "demoLink":"#",
-            "GitHub":"#"
+            "GitHub":"https://github.com/geethamaddu/AiStockPrediction"
         },
          {
             "id":3,
