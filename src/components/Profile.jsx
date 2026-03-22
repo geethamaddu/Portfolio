@@ -33,7 +33,7 @@ export const Profile = () => {
             </a>
 
             <a
-              href="../public/resumechange.docx"
+              href="https://docs.google.com/document/d/13Ng4Keavlf8y8sdqIcfGMHqIpUPPE80Q/edit?usp=drive_link&ouid=102846225088703545539&rtpof=true&sd=true"
               download
               className="rounded-full border border-primary px-6 py-2 text-primary transition-colors duration-300 hover:bg-primary/10"
             >
