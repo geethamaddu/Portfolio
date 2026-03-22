@@ -33,7 +33,7 @@ export const Profile = () => {
             </a>
 
             <a
-              href=".../public/resumechange.docx"
+              href="../public/resumechange.docx"
               download
               className="rounded-full border border-primary px-6 py-2 text-primary transition-colors duration-300 hover:bg-primary/10"
             >
